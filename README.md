@@ -35,11 +35,10 @@ Most AI demos stop at simple chatbots. This repository goes further — building
 
 | Phase | Focus | Key Deliverable |
 |-------|-------|-----------------|
-| **Weeks 1-2** | Foundations — Transformers, Hugging Face, Fine-tuning | Notebooks on attention, tokenization |
-| **Weeks 3-4** | RAG + LangChain + Vector DBs + Observability | PDF chatbot with LangSmith tracing |
-| **Weeks 5-7** | Speech — STT (Whisper) + TTS | Voice assistant (speech in → speech out) |
-| **Weeks 8-9** | Deployment — FastAPI + Docker + Render | Live API endpoint |
-| **Weeks 10-12** | Capstone — Voice Document Assistant | Full-stack voice RAG app + blog + demo |
+| **phase 1** | Foundations — Transformers, Hugging Face, Fine-tuning | Notebooks on attention, tokenization |
+| **phase 2** | RAG + LangChain + Vector DBs + Observability | PDF chatbot with LangSmith tracing |
+| **phase 3** | Deployment — FastAPI + Docker + Render | Live API endpoint |
+| **phase 4** | Capstone — Voice Document Assistant | Full-stack voice RAG app + blog + demo |
 
 ---
 
@@ -50,7 +49,6 @@ Most AI demos stop at simple chatbots. This repository goes further — building
 | **Orchestration** | LangChain, LangGraph (state graphs, checkpointers) |
 | **LLMs** | OpenAI GPT, Hugging Face models, Llama |
 | **RAG** | Chroma / Pinecone (vector DBs), LangSmith (observability) |
-| **Speech** | Whisper (STT), SpeechT5 / Coqui (TTS) |
 | **Deployment** | FastAPI, Streamlit, Docker, Render / Hugging Face Spaces |
 | **Language** | Python 3.10+ |
 
